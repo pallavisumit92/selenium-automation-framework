@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="1" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.regulusit.test.AddUserTest">
+        <methods>
+          <include name="addNewUser"/>
+        </methods>
+      </class> <!-- com.regulusit.test.AddUserTest -->
+      <class name="com.regulusit.test.LoginTest">
+        <methods>
+          <include name="verifyAdminLoginSuccessfull"/>
+        </methods>
+      </class> <!-- com.regulusit.test.LoginTest -->
+      <class name="com.regulusit.test.AddEmployeeTest">
+        <methods>
+          <include name="addNewEmployeeToSystem"/>
+        </methods>
+      </class> <!-- com.regulusit.test.AddEmployeeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
